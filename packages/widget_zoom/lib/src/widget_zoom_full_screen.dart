@@ -61,7 +61,7 @@ class _ImageZoomFullscreenState extends State<WidgetZoomFullscreen>
             duration: _opacityDuration,
             opacity: _opacity,
             child: Container(
-              color: Colors.black,
+              color: Colors.white,
             ),
           ),
         ),
@@ -108,7 +108,7 @@ class _ImageZoomFullscreenState extends State<WidgetZoomFullscreen>
                   ),
                   child: Icon(
                     CupertinoIcons.xmark,
-                    color: Colors.white,
+                    color: Colors.black,
                     size: 30,
                   ),
                 ),
